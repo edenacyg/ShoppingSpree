@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+body{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 1.4;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(to right bottom, #19252c, #072437, #00294c, #002c5f, #172c70);
+    padding: 0px 10px;
+    height: 300px;
+    margin-bottom: -200px;
+    padding: 20px;
+    color: white;
+}
+
+.logo, .logo>a{
+    display: inline-block;
+    width: 70%;
+    text-align: left;
+    color: #ffff;
+    text-decoration:none;
+    font-size: 25px;
+}
+
+.cart, .cart>a{
+    display: inline-block;
+    width: 27%;
+    text-align: right;
+    color: #ffff;
+    text-decoration:none;
+    font-size: 25px;
+}
+
+.cart>h2 {
+    text-align: right;
+}
+.container {
+    text-align: left;
+    display: inline-block;
+    padding: 40px 35px 25px 35px;
+    margin: auto;
+    border-radius: 5px;
+    margin: 1% !important;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.cart_container {
+    width: 706px;
+    text-align: left;
+    display: inline-block;
+    padding: 40px 35px 50px 35px;
+    margin: auto;
+    border-radius: 5px;
+    margin: 1% !important;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.price {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form_btn input[type="submit"], .btn input[type="submit"], .logout_btn input[type="submit"]{
+    color: white;
+    background-color: #3c5a9b;
+    padding: 15px 30px 15px 30px;
+    margin: 10px 10px 0 10px;
+    border: 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+
+.msgs {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.form_btn {
+    text-align: center;
+}
+
+input[type="text"], input[type="password"] {
+    background-color: #f3f2f2;;
+    border: 0;
+    padding: 10px;
+    width: 98%;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]:hover {
+    background: #172c70;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+input[type="submit"]:active {
+    background: #172c70;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+input[type="text"]:focus {
+    background-color: rgb(239, 243, 250);
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.btn {
+    display: inline-block;
+}
+
+input[type="number"] {
+    height: 43px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;  
+}
+
+th {
+    background-color: #f3f2f2;;
+    border: 1px solid #979797;
+    width: 25%;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #979797;
+    width: 25%;
+    padding: 7px;
+    text-align: center;
+    vertical-align: middle;
+}
