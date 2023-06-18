@@ -33,7 +33,7 @@ A shop and cart page with basic functionalities.
 • Properly place sensitive values that cannot be hacked. Manipulating/accessing userdata only within the server-side. 
 
 *******************
-💡 Areas for improvement:
+🌱 Areas for improvement:
 *******************
 
 • Add billing info.
